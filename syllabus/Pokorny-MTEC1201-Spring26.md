@@ -3,19 +3,19 @@
 Emerging Media Technology   
 Department of Entertainment Technology   
 CUNY New York City College of Technology  
-Spring 2026
+Fall 2026
 
 ## COURSE INFORMATION      
-MTEC 1201 - D01     
+MTEC 1201 - D02     
 Computer Programming for Interactive Media I   
 Professor: Ian Pokorny     
-Thursday, 2:15 PM - 5:35 PM   
+Wednesday, 2:15 PM - 5:35 PM   
 Modality: In Person    
 Location: Voorhees Hall V-103B      
-Course site: [\[this GitHub repo\]](https://github.com/entertainmenttechnology/Pokorny-MTEC1201_D01-Spring2026)                  
+Course site: [\[this GitHub repo\]](https://github.com/entertainmenttechnology/Pokorny-MTEC1201_D02-Fall2026)                  
 Discord: See email invitation    
 Email: IPokorny@citytech.cuny.edu    
-Office hours: Tuesday 2pm-4pm (via Zoom or Discord), and by appointment outside of listed hours.      
+Office hours: Thursday 2pm-4pm (via Zoom or Discord), and by appointment outside of listed hours.      
 _Sign up for office hours through Discord DM or Email_
 
 ### COURSE DESCRIPTION  
@@ -60,7 +60,7 @@ Course materials and assignments for the week’s session will be posted to GitH
   
 ## REQUIRED MATERIALS               
 * A sketchbook, or paper to sketch with and take notes(does not need to be exclusive to this class)    
-* Access to a Mac or PC computer with internet access [see "[Laptop Specs]()" for more info]
+* Access to a Mac or PC computer with internet access [see "[Laptop Specs](https://github.com/entertainmenttechnology/Pokorny-MTEC1201_D02-Fall2026/blob/main/resources/laptop-specs.md)" for more info]
 * Free software and accounts: Discord, Github, Visual Studio Code, Web Browser        
     
 ## EXPECTATIONS    
