@@ -12,7 +12,7 @@ The basics:
 * [The coordinate system and shapes](https://archive.p5js.org/learn/coordinate-system-and-shapes.html)
  
 Color, fill, stroke:      
-_(There are multiple ways of inputting color values-- I recommend using r, g, b for it's flexibility)._  
+_(There are multiple ways of inputting color values-- I recommend using r, g, b for its flexibility)._  
 
 * [background()](https://p5js.org/reference/p5/background/)  
 * [fill()](https://p5js.org/reference/p5/fill/) and [noFill()](https://p5js.org/reference/p5/noFill/) 
