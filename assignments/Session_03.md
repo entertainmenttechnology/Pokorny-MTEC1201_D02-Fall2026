@@ -22,7 +22,10 @@ Functions:
 * [print()](https://p5js.org/reference/p5/print) and [console.log()](https://p5js.org/reference/console/log/)   
 * [mousePressed()](https://p5js.org/reference/p5/mousePressed)  
 * [keyPressed()](https://p5js.org/reference/p5/keyPressed)  
-   
+
+Web Browser Javascript Console:
+* [Browser Dev Tools](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools#the_javascript_console): check out sections **"How to open the devtools in your browser"** & **"The JavaScript console"**
+
 
 ### **Short Study #2: Responsive Drawing**  
 Create a responsive drawing using p5.js involving user input, inspired by the theme you have chosen for this series of sketches. You may use the previous assignment as a starting point, or begin a completely new sketch.
