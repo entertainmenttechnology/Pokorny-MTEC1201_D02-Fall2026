@@ -32,7 +32,7 @@ function draw()
     //display image with image() method
 	if (fish === goldfish)
 	{
-  	    image (fish, width/2, height/2, imageWidth/4, imageHeight/4); //reduce size if goldfish
+  	    image (fish, width/2, height/2, imageWidth/4, imageHeight/4); //reduce size of goldfish
 	}
 	else
 	{
