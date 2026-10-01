@@ -3,7 +3,8 @@
 
 ### **Familiarize Yourself with the following...**                
 p5.js functions:    
-* [preload()](https://p5js.org/reference/p5/preload/)    
+* [async_await](https://beta.p5js.org/reference/p5/async_await/)    
+NOTE: async setup() and await keyword are a new addition to p5.js V2. Older examples may still refer to preload(), which is now deprecated: Do not use it.
 * image related: [loadImage()](https://p5js.org/reference/p5/loadImage), [image()](https://p5js.org/reference/p5/image), [imageMode()](https://p5js.org/reference/p5/imageMode)  
 * text related: [text()](https://p5js.org/reference/p5/text), [textAlign()](https://p5js.org/reference/p5/textAlign), [textSize()](https://p5js.org/reference/p5/textSize)  
 * time related: [millis()](https://p5js.org/reference/p5/millis), and more functions under "time and date" in [p5.js reference](https://p5js.org/reference/)
