@@ -7,7 +7,7 @@
  Press and hold mouse.
  ///////////////////////////////////////////////////
  
- Note the use of preload() in this sketch for loading assets before setup() is called. 
+ Note the use of async keyword before setup() to allow for asynchronous loading of assets.
  */
 
 //Create a p5.Image object to store image
@@ -21,23 +21,21 @@ let fade = 1;
 //Creates variable for fish animation
 let fall = 0;
 
-//Load image assets into preload() to avoid asynchronous loading errors
-function preload() {
-	tuna = loadImage("images/tuna.png"); //Assign image to variable using loadImage() 
-	shark = loadImage("images/shark.png");
-	//Use preload() only to load assets-- nothing else!
-}
-
-//setup() is called AFTER preload() is complete and runs only once
-function setup() {
+//add the keyword async before setup() to allow for asynchronous loading of assets
+async function setup() 
+{
 	createCanvas(500, 500);
 	background(200);
 	imageMode(CENTER); //draws images from center point
 	textAlign(CENTER); //draws text from centerpoint
 	textSize(88); //sets size of text
+
+    //Assign image asset to p5.Image object using loadImage()
+    tuna = await loadImage("assets/tuna.png");
+    shark = await loadImage("assets/shark.png");
+    // await keyword is used to load the image asynchronously, it will pause setup() until the image is fully loaded.
 }
 
-//draw() runs continuously after preload() and setup() are complete
 function draw() 
 {
 	background(200);
@@ -68,8 +66,4 @@ function draw()
 	{
 		fall = 0;
 	}
-
-	print("opacity: " + opacity);
-	print("fade: " + fade);
-	print("fall: " + fall);
 }

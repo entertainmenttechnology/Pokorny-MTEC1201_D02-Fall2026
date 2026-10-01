@@ -12,32 +12,27 @@ let tuna;  //Creates a p5.Image object called tuna
 let goldfish; //Creates a p5.Image object called goldfish
 let fish; //Creates a p5.Image object called fish
 
-function preload()
+async function setup() 
 {
-	//Assign image asset to p5.Image object using loadImage() 
-  tuna = loadImage("images/tuna.png");
-  goldfish = loadImage("images/goldfish.png");
-}
-
-function setup() 
-{
-  createCanvas (500, 500);
-  background (200);
-  imageMode(CENTER); //draws images from center point
-  fish = tuna; //assign tuna image to fish
+    createCanvas(500, 500);
+    background(200);
+    imageMode(CENTER); //draws images from center point
+    tuna = await loadImage("assets/tuna.png");
+    goldfish = await loadImage("assets/goldfish.png");
+    fish = tuna; //assign tuna image to fish
 }  
 
 function draw() 
 {
-  background(200);
+    background(200);
 	
 	let imageWidth = 400;
 	let imageHeight = 400;
 	
-  //display image with image() method
+    //display image with image() method
 	if (fish === goldfish)
 	{
-  	image (fish, width/2, height/2, imageWidth/4, imageHeight/4); //reduce size if goldfish
+  	    image (fish, width/2, height/2, imageWidth/4, imageHeight/4); //reduce size if goldfish
 	}
 	else
 	{
@@ -47,12 +42,12 @@ function draw()
 
 function keyPressed() 
 {
-  if (key === '1') 
-	{
-    fish = tuna;
-  } 
+    if (key === '1') 
+    {
+        fish = tuna;
+    } 
 	else if (key === '2') 
 	{
-    fish = goldfish;
-  }
+        fish = goldfish;
+    }
 }
