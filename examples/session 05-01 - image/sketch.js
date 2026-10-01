@@ -3,27 +3,25 @@
 //		Demo: working with image assets.		//
 ////////////////////////////////////////////
  
- Note the use of preload() in this sketch for loading assets before setup() is called. 
+ Note the use of async keyword before setup() to allow for asynchronous loading of assets.
  */
 
 //Create a p5.Image object to store image
 let tuna; //Declares p5.Image object called tuna
 
-//Load image assets into preload() to avoid asynchronous loading errors
-function preload() //Use preload() only to load assets -- nothing else!
-{
-	tuna = loadImage("images/tuna.png"); //Assign image asset to p5.Image object using loadImage() 
-}
-
-//setup() is called AFTER preload() is complete, and runs only once
-function setup() 
+//add the keyword async before setup() to allow for asynchronous loading of assets
+async function setup() 
 {
 	createCanvas(500, 500);
 	background(200);
 	imageMode(CENTER); //draws images from center point
+
+	tuna = await loadImage("assets/tuna.png"); //Assign image asset to p5.Image object using loadImage()
+    // await keyword is used to load the image asynchronously. 
+    // use of awair will pause the execution of setup() until the image is fully loaded.
 }
 
-//draw() runs continuously after preload() and setup() are complete
+//draw() runs continuously after setup() is complete
 function draw() 
 {
 	background(200);
