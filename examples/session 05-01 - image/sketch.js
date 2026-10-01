@@ -18,7 +18,7 @@ async function setup()
 
 	tuna = await loadImage("assets/tuna.png"); //Assign image asset to p5.Image object using loadImage()
     // await keyword is used to load the image asynchronously. 
-    // use of awair will pause the execution of setup() until the image is fully loaded.
+    // use of await will pause the execution of setup() until the image is fully loaded.
 }
 
 //draw() runs continuously after setup() is complete
