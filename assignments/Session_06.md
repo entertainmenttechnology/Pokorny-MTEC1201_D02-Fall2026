@@ -8,7 +8,7 @@
 
 ### **Midterm Project WIP**    
 
-Your midterm work in progress sketch is due before the beginning of next class. See the [Midterm Project]() requirements for more details.    
+Your midterm work in progress sketch is due before the beginning of next class. See the [Midterm Project](https://github.com/entertainmenttechnology/Pokorny-MTEC1201_D02-Fall2026/blob/main/assignments/MIDTERM.md) requirements for more details.    
 
 There is no additional short study assignment for this week.  
 
