@@ -25,6 +25,6 @@ Save the completed project as "SS5-[FirstName + Last Initial]" (for example, "SS
 ## **Supplemental/Optional:**    
 For video tutorials relating to this week's topics, check out [while and for loops](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/4-loops/1-while-for) on The Coding Train.  
 
-Feeling extra ambitious? Try [nested loops](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/4-loops/2-nested)! Find another example of nested loops in demo 5 from this week's Open Processing demo collection. 
+Feeling extra ambitious? Try [nested loops](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/4-loops/2-nested)!
    
 _(Important reminder: Some of the older Coding Train videos use "var" for declaring variables, which is largely outdated and best to avoid. Instead, use "const" and "let" as appropriate.)_    
