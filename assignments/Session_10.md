@@ -17,7 +17,7 @@ Building upon your chosen theme, create a responsive sketch in p5.js. You may us
 * You may use the previous assignments as a starting point, or begin a completely new sketch.    
 * Include as a comment at the top of your sketch: your name, title, any instructions for the user.          
 
-Save the completed sketch as "SS6-[FirstName + Last Initial]" (for example, "SS6-IanP"). Submit to your Github Repo **before the beginning of class on 4/23**.      
+Save the completed sketch as "SS6-[FirstName + Last Initial]" (for example, "SS6-IanP"). Submit to your Github Repo **before the beginning of next class**.      
    
 ## **Supplemental/Optional:**    
 For video tutorials relating to this week's topics, check out The Coding Train:
