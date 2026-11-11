@@ -32,7 +32,7 @@ Integrate a coding technique that we have not covered in class into your project
 * What does it look like? (a sketch would be most helpful here).
 * For completing your proposed project, are you familiar with all tools and techniques needed? Or are there additional tools or techniques that you need to research and learn? If the latter, please specify.  
 * Create a calendar of tasks. Outline the steps for completing the project, with a proposed week by week timeline, including what you intend to complete for WIP1 and WIP2. Include any potential research or demos to review, sketch iterations, and testing.  
-* Submit your proposal to me as a PDF via **DM on Discord** before our class on 4/30.  
+* Submit your proposal to me as a PDF via **DM on Discord** before our class on 11/18.  
 
 **Due Dates:**
 ### WEDNESDAY, 11/18 - Proposal due
