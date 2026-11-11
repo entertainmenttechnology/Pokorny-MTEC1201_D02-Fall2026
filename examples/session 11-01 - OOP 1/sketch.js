@@ -7,7 +7,7 @@ __________________________________________________________
 BASIC PSEUDOCODE:
 
 declare the object
-(let objectName;)
+let objectName;
 
 function setup(){
   create new instance of the object from constructor
