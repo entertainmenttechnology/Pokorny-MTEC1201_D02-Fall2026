@@ -9,16 +9,19 @@ BASIC PSEUDOCODE:
 declare the object
 let objectName;
 
-function setup(){
+function setup()
+{
   create new instance of the object from constructor
-	(objectName = new ClassName(optional arguments));
+	objectName = new ClassName(optional arguments);
 }
 
-function draw(){
+function draw()
+{
   call methods on the object
 }
 
-class ClassName{  //class name is capitalized
+class ClassName //class name is capitalized
+{  
   constructor() //constructs the object, like setup()
 	methods() // like functions for the class
 }
